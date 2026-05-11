@@ -193,3 +193,19 @@ section {
 
 /* ---------- Print to PDF ---------- */
 @page { size: 1920px 1080px; margin: 0; }
+
+/* Print-safety for motion-fx.js: hard-reset any inline animation state so
+   PDF export always sees the final, unanimated layout. The Matter.js
+   canvas is hidden too — print should show the static .tile-grid. */
+@media print {
+  [data-anim],
+  [data-anim] * {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    will-change: auto !important;
+  }
+  canvas[data-physics] { display: none !important; }
+  .tile-grid { opacity: 1 !important; }
+}

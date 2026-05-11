@@ -6,6 +6,11 @@
 <meta name="viewport" content="width=1920, initial-scale=1" />
 <link rel="stylesheet" href="styles.css" />
 <script src="deck-stage.js"></script>
+<!-- Motion One (Framer Motion's vanilla cousin, ~4KB) — animation engine -->
+<script src="https://cdn.jsdelivr.net/npm/motion@10.18.0/dist/motion.min.js"></script>
+<!-- Matter.js — rigid-body physics for the slide-01 gravity-drop showpiece -->
+<script src="https://cdn.jsdelivr.net/npm/matter-js@0.20.0/build/matter.min.js"></script>
+<script src="motion-fx.js" defer></script>
 <script type="application/json" id="speaker-notes">
 [
 "Title slide. Hold for 5 seconds. Pep, thanks for the time. SPIN OFFF: a spin-off of OFFF Barcelona — same DNA, new rotation. The 'rotation' is literal: a new featured artist every month. This is a 10-minute walkthrough, then 5 minutes of Q&A.",
@@ -44,7 +49,7 @@
 <!-- ============================================================
      01 — TITLE
      ============================================================ -->
-<section data-label="01 Title">
+<section data-label="01 Title" data-anim-mode="manual">
   <div class="tile-grid">
     <div class="tile bg-orange"></div>
     <div class="tile bg-cyan"></div>
@@ -56,19 +61,19 @@
     <div class="tile bg-red"></div>
     <div class="tile bg-black" style="grid-column: 1 / span 4; align-items: flex-start;">
       <div style="display:flex; flex-direction:column; align-items:flex-start; padding: 32px 96px 0; width: 100%;">
-        <div class="display" style="font-size: 200px; color: var(--offf-white); line-height: 0.85;">SPIN<br/>OFFF</div>
+        <div class="display" style="font-size: 200px; color: var(--offf-white); line-height: 0.85;"><span data-anim="spin" data-anim-delay="2.45" style="display:inline-block;">SPIN</span><br/><span data-anim="drop" data-anim-delay="2.85" style="display:inline-block;">OFFF</span></div>
       </div>
     </div>
   </div>
 
   <div style="position:absolute; left: 96px; top: 48px; right: 96px; display:flex; justify-content:space-between; align-items:center; font-family: var(--font-mono); font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; z-index: 6;">
-    <span>For Pep Salazar · CEO, OFFF</span>
-    <span>May 2026 · Strategic alignment</span>
+    <span data-anim="snap" data-anim-delay="3.1">For Pep Salazar · CEO, OFFF</span>
+    <span data-anim="snap" data-anim-delay="3.2">May 2026 · Strategic alignment</span>
   </div>
 
   <div style="position:absolute; left: 96px; right: 96px; bottom: 44px; display:flex; justify-content:flex-end; align-items:flex-end; gap: 96px; color: var(--offf-white); font-family: var(--font-mono); font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; z-index: 6;">
-    <span>A spin-off. Same DNA. New rotation.</span>
-    <span>[ 01 / 26 ]</span>
+    <span data-anim="snap" data-anim-delay="3.3">A spin-off. Same DNA. New rotation.</span>
+    <span data-anim="snap" data-anim-delay="3.4">[ 01 / 26 ]</span>
   </div>
 </section>
 
