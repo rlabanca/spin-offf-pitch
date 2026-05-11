@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "decks/pitch-for-pep/project",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/SPIN%20OFFF%20-%20Pitch%20for%20Pep.html" },
+    { "source": "/print", "destination": "/SPIN%20OFFF%20-%20Pitch%20for%20Pep-print.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)\\.(html)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

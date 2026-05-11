@@ -1,0 +1,162 @@
+/* ============================================================
+   OFFF Festival — Colors & Type
+   Source of truth for design tokens.
+   Brand DNA: chunky black wordmark on flat color blocks.
+   Festival energy: electric blue, neon green, bright cyan,
+   raw orange + soft pink, grounded by deep brown + black.
+   ============================================================ */
+
+:root {
+  /* ---------- BRAND CORE ---------- */
+  --offf-black:      #000000;
+  --offf-white:      #FFFFFF;
+  --offf-paper:      #F4F1EC;   /* warm off-white used as alt page bg */
+
+  /* ---------- BRAND COLOR BLOCKS ----------
+     Pulled from the OFFF 2026 hero / OG cover. These are the
+     FLAT color tiles the wordmark sits on. They are interchangeable
+     and meant to be combined in unexpected pairings. */
+  --offf-orange:     #FF7A2E;   /* warm primary tile */
+  --offf-cyan:       #22D1FF;   /* electric blue */
+  --offf-green:      #4FCE62;   /* neon lime */
+  --offf-pink:       #FF8FB8;   /* soft acid pink */
+  --offf-red:        #FF3B30;   /* alert red */
+  --offf-brown:      #763D2D;   /* grounded clay */
+  --offf-electric:   #1A4BFF;   /* venue light blue */
+
+  /* ---------- NEUTRAL SCALE ---------- */
+  --n-0:   #FFFFFF;
+  --n-50:  #F7F6F3;
+  --n-100: #ECEAE4;
+  --n-200: #D8D4CB;
+  --n-300: #B5B0A6;
+  --n-400: #8A867D;
+  --n-500: #5C5A53;
+  --n-600: #3A3935;
+  --n-700: #1F1E1B;
+  --n-900: #000000;
+
+  /* ---------- SEMANTIC ---------- */
+  --bg:            var(--offf-white);
+  --bg-alt:        var(--offf-paper);
+  --bg-inverse:    var(--offf-black);
+  --fg:            var(--offf-black);
+  --fg-muted:      var(--n-500);
+  --fg-faint:      var(--n-400);
+  --fg-inverse:    var(--offf-white);
+  --border:        var(--offf-black);
+  --border-soft:   var(--n-200);
+  --link:          var(--offf-black);
+  --link-hover:    var(--offf-green);
+  --accent:        var(--offf-green);
+  --highlight:     var(--offf-cyan);
+  --primary:       var(--offf-black);   /* primary CTA on white */
+
+  /* ---------- TYPOGRAPHY ---------- */
+  /* Heading: OFFF Baikal Semi Bold (display sans).
+     SUBSTITUTION: Space Grotesk via Google Fonts (closest free
+     match for the chunky geometric sans). Replace when font
+     files arrive. */
+  --font-display: "Baikal", "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-body:    "Madefor Text", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  --font-mono:    "JetBrains Mono", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  /* Type scale — display-led. Festival posters favor very large
+     headers; body stays a comfortable 16px. */
+  --fs-display:   clamp(72px, 12vw, 220px);
+  --fs-h1:        clamp(48px, 7vw, 96px);
+  --fs-h2:        clamp(32px, 4.4vw, 64px);
+  --fs-h3:        clamp(22px, 2.4vw, 32px);
+  --fs-h4:        20px;
+  --fs-body:      16px;
+  --fs-small:     13px;
+  --fs-micro:     11px;
+
+  --lh-display:   0.92;
+  --lh-tight:     1.02;
+  --lh-snug:      1.15;
+  --lh-body:      1.45;
+
+  --tr-display:   -0.03em;
+  --tr-heading:   -0.015em;
+  --tr-body:      0;
+  --tr-mono-tag: 0.04em;
+
+  /* ---------- SPACING ---------- */
+  --u: 4px;
+  --s-1:  4px;
+  --s-2:  8px;
+  --s-3:  12px;
+  --s-4:  16px;
+  --s-5:  24px;
+  --s-6:  32px;
+  --s-7:  48px;
+  --s-8:  64px;
+  --s-9:  96px;
+  --s-10: 128px;
+
+  /* ---------- RADII ---------- */
+  --r-0:   0px;       /* Default — OFFF is hard-cornered */
+  --r-sm:  3px;       /* Listed in scrape; rare use */
+  --r-pill: 999px;    /* Used only on round tag chips */
+
+  /* ---------- BORDERS ---------- */
+  --bw-1: 1px;
+  --bw-2: 2px;
+  --bw-3: 3px;
+  --bw-hairline: 1px;
+
+  /* ---------- SHADOWS ----------
+     OFFF generally avoids drop shadows — flat color blocks
+     do the work. Reserve subtle shadow for floating menus only. */
+  --shadow-none:  none;
+  --shadow-pop:   0 0 0 2px var(--offf-black);
+  --shadow-soft:  0 4px 24px rgba(0,0,0,0.08);
+
+  /* ---------- MOTION ---------- */
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.7, 0, 0.2, 1);
+  --d-fast: 120ms;
+  --d-base: 200ms;
+  --d-slow: 400ms;
+}
+
+/* ============================================================
+   Webfont — using Google Fonts substitute for OFFF Baikal.
+   ============================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+/* ============================================================
+   Base / element resets
+   ============================================================ */
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: var(--tr-heading);
+  line-height: var(--lh-tight);
+  margin: 0;
+}
+
+.display     { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-display); line-height: var(--lh-display); letter-spacing: var(--tr-display); text-transform: uppercase; }
+.h1          { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h1); line-height: var(--lh-tight); letter-spacing: var(--tr-heading); }
+.h2          { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h2); line-height: var(--lh-tight); letter-spacing: var(--tr-heading); }
+.h3          { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h3); line-height: var(--lh-snug); }
+.h4          { font-family: var(--font-display); font-weight: 600; font-size: var(--fs-h4); line-height: var(--lh-snug); }
+.body        { font-family: var(--font-body); font-size: var(--fs-body); line-height: var(--lh-body); }
+.small       { font-family: var(--font-body); font-size: var(--fs-small); line-height: 1.4; }
+.micro       { font-family: var(--font-body); font-size: var(--fs-micro); line-height: 1.3; }
+.tag         { font-family: var(--font-mono); font-size: var(--fs-small); letter-spacing: var(--tr-mono-tag); text-transform: uppercase; }
+.numeral     { font-family: var(--font-display); font-feature-settings: "tnum"; }
+
+a { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
+a:hover { color: var(--link-hover); }

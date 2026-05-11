@@ -1,0 +1,966 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>SPIN OFFF — Pitch for Pep</title>
+<meta name="viewport" content="width=1920, initial-scale=1" />
+<link rel="stylesheet" href="styles.css" />
+<script src="deck-stage.js"></script>
+<script type="application/json" id="speaker-notes">
+[
+"Title slide. Hold for 5 seconds. Pep, thanks for the time. SPIN OFFF: a spin-off of OFFF Barcelona — same DNA, new rotation. The 'rotation' is literal: a new featured artist every month. This is a 10-minute walkthrough, then 5 minutes of Q&A.",
+"Why we're here. The picture in one sitting — problem, vision, model, the numbers, and what we need to make it real. The ask lands at the end, on purpose: after you've seen the full shape.",
+"The problem. AI is collapsing creative variety into one homogenized look — samification. Artists feel it; the audience feels it. There's no curated, year-round counterweight that uses the OFFF lens. State this plainly, no drama.",
+"The opportunity gap. OFFF is the loudest creative voice in the world for three days a year. The other 362 days, we're quiet. The community doesn't disappear — they go elsewhere. SPIN OFFF is the year-round signal between festivals.",
+"The vision. Year-round home of creative culture, anchored to one featured artist a month. Curated, opinionated, warm. We don't compete with free content; we curate against it.",
+"The team. Eight people on full salary: four founders + four production roles. Gabriela on operations (Amazon PM rigor), Yeva on international growth, Lian on visual craft, Rodrigo on tech and product, plus a content/social/AV pod. Lean for a media company at this scope.",
+"What it is — three layers. Free newsletter (M1). Paid membership at €12/mo (M4, one month before OFFF Barcelona 2027). Creative box (Y4, when the audience is large enough to justify physical ops). Each layer is escalating commitment. Trust before money — the brand promise.",
+"The artist of the month. The unifying mechanic. One artist anchors the newsletter, the podcast, social, and eventually the box. They're paid €2K. They co-promote to their own audience. This is what makes content production lean and what gives every month a distinct visual identity.",
+"The funnel — the bowtie. Read left to right: OFFF community → newsletter → membership → spending credits and box. Left side is acquisition (free), right side is expansion (paid, recurring). The neck of the bowtie is the membership — that's where trust converts to revenue.",
+"Member benefits. Not a paywall on content — a passport into the OFFF ecosystem. Sponsor toolkits, marketplace credit, early-bird tickets, free meetups, mentor access. Every benefit pulls members deeper into OFFF, not away from it.",
+"The unfair advantage. This is the slide for you, Pep. Everything we leverage is something OFFF earned over 25 years. 200K–400K reachable people. Decades of artist relationships. The sponsor network. Government tax structures. The trust. We don't have a marketing budget because we don't need one.",
+"Market. TAM 150–200M creatives globally. SAM 15–20M in the OFFF lane (It's Nice That, Dezeen audience). SOM 500K reachable; 10K paying members by Year 5. Frame it as opportunity, not promise.",
+"Business model. Three revenue streams in Y1: newsletter sponsorship (from M3, integrated with the artist), membership (from M4, €12/mo), platform ads (from M6). Box subscription launches Y4. Pricing chosen to fund the artist fee, the team, and the perks ecosystem — going below €12 forces compromises.",
+"Year 1 plan — the building year. Newsletter M1. Membership M4. End of Y1: 1,000 members, €16.5K MRR, €91K revenue. Costs are €206K — eight people on full salary from day one. Y1 closes at -€115K. Monthly break-even at M13, start of Year 2.",
+"The 5-year P&L. €3.9M revenue, €1.49M costs, +€2.43M net across five years. Cumulative break-even in Q4 of Year 2. Box subscription adds €655K across Y4–Y5. Membership is the engine — 78% of cumulative revenue. 10,000 members by EoY5.",
+"Risks. Three honest ones, with mitigations. Cannibalization (we feed festival ticket sales, not replace them). Churn over 5% (multi-vector benefits — content + perks + credits + access). Brand dilution (you have approval rights on artists, sponsors, and brand changes). All in writing.",
+"The investment ask. ~€125K seed to cover the Y1 deficit. Eight people, full salary, no paid acquisition. Capital recovered in Q4 of Year 2; 5-year cumulative return +€2.43M. Natural investor: OFFF as equity co-funder. Or we go raise it externally — we're asking for your blessing to proceed.",
+"Closing. We don't monetize until we've earned trust. Fight samification. Meaningful art and design to help fix this messy world. Three sentences — that's the company. Hand to Pep for Q&A.",
+"Q&A — appendix slide. Pep's main concern: how do we monetize when there's so much free creative content online? Answer: we don't compete on volume of free content. We compete on curation, access, and belonging. Membership is a passport, not a paywall.",
+"Q&A — appendix slide. Why €12 / month? It's the price needed to fund the artist (€2K/mo), the perks ecosystem, and the production team. Below €12 forces compromise on artist pay or member benefits — both unacceptable. Early-adopter pricing is allowed at launch.",
+"Q&A — appendix slide. Why won't this cannibalize OFFF? It's complement, not substitute. Year-round oxygen for the brand; funnels members back into festival ticket sales (early-bird access); feeds the OFFF marketplace; creates UGC OFFF can use.",
+"Q&A — appendix slide. What if churn is higher than 5%? Multi-vector membership: members who don't read the newsletter still spend their credits and use early-bird festival access. That diversification is the moat. We measure MRR churn monthly and adjust perks if a vector is underused."
+]
+</script>
+</head>
+<body>
+
+<deck-stage width="1920" height="1080">
+
+<!-- ============================================================
+     01 — TITLE
+     ============================================================ -->
+<section data-label="01 Title">
+  <div class="tile-grid">
+    <div class="tile bg-orange"></div>
+    <div class="tile bg-cyan"></div>
+    <div class="tile bg-pink"></div>
+    <div class="tile bg-green"></div>
+    <div class="tile bg-brown"></div>
+    <div class="tile bg-paper"></div>
+    <div class="tile bg-electric"></div>
+    <div class="tile bg-red"></div>
+    <div class="tile bg-black" style="grid-column: 1 / span 4; align-items: flex-start;">
+      <div style="display:flex; flex-direction:column; align-items:flex-start; padding: 32px 96px 0; width: 100%;">
+        <div class="display" style="font-size: 200px; color: var(--offf-white); line-height: 0.85;">SPIN<br/>OFFF</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position:absolute; left: 96px; top: 48px; right: 96px; display:flex; justify-content:space-between; align-items:center; font-family: var(--font-mono); font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; z-index: 6;">
+    <span>For Pep Salazar · CEO, OFFF</span>
+    <span>May 2026 · Strategic alignment</span>
+  </div>
+
+  <div style="position:absolute; left: 96px; right: 96px; bottom: 44px; display:flex; justify-content:flex-end; align-items:flex-end; gap: 96px; color: var(--offf-white); font-family: var(--font-mono); font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; z-index: 6;">
+    <span>A spin-off. Same DNA. New rotation.</span>
+    <span>[ 01 / 18 ]</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     02 — WHY WE'RE HERE
+     ============================================================ -->
+<section data-label="02 Why we're here" class="bg-paper">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Why we're here</span></div>
+  <div class="slide" style="justify-content:center;">
+    <div class="tag" style="margin-bottom: 32px;">[ 02 ] How this lands</div>
+    <div class="title" style="max-width: 1500px;">Problem first.<br/>Vision second.<br/>The ask, last.</div>
+    <div class="lead" style="max-width: 1300px; margin-top: 48px; color: var(--n-600);">
+      Eighteen slides, one sitting. We earn the buy-in before we ask for the cheque — what SPIN OFFF is, what it earns, what it asks of OFFF, what it gives back. The number lands at the end, after you've seen the full shape.
+    </div>
+    <div class="row gap-md" style="margin-top: 72px;">
+      <div class="card" style="padding: 28px 36px; min-width: 360px;">
+        <div class="tag" style="color: var(--n-500);">Part 1 · 03–05</div>
+        <div class="sub" style="font-size: 44px; margin-top: 12px;">Problem &amp; vision</div>
+      </div>
+      <div class="card" style="padding: 28px 36px; min-width: 360px;">
+        <div class="tag" style="color: var(--n-500);">Part 2 · 06–15</div>
+        <div class="sub" style="font-size: 44px; margin-top: 12px;">Model &amp; numbers</div>
+      </div>
+      <div class="card" style="padding: 28px 36px; min-width: 360px;">
+        <div class="tag" style="color: var(--n-500);">Part 3 · 17–18</div>
+        <div class="sub" style="font-size: 44px; margin-top: 12px;">Closing &amp; the ask</div>
+      </div>
+    </div>
+  </div>
+  <div class="snum">[ 02 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     03 — THE PROBLEM
+     ============================================================ -->
+<section data-label="03 Samification" class="bg-orange">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>The problem</span></div>
+  <div class="slide" style="justify-content:center;">
+    <div class="tag" style="margin-bottom: 40px;">[ 03 ] Samification</div>
+    <div class="display" style="font-size: 200px; line-height: 0.86;">
+      Everything is<br/>starting to look<br/>the same.
+    </div>
+    <div class="lead" style="max-width: 1200px; margin-top: 44px; font-size: 32px;">
+      AI is collapsing creative variety into one homogenized look. Designers feel it. Audiences feel it. The web is running out of distinct voices — and there's no curated, year-round counterweight in the OFFF lane.
+    </div>
+  </div>
+  <div class="snum">[ 03 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     04 — OPPORTUNITY GAP
+     ============================================================ -->
+<section data-label="04 The gap">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>The gap</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 04 ] 3 days vs. 362</div>
+    <div class="title" style="max-width: 1500px;">OFFF is the loudest creative voice<br/>in the world — for three days a year.</div>
+
+    <div class="row" style="margin-top: 80px; align-items:stretch; gap: 0;">
+      <div class="card" style="flex: 0 0 220px; padding: 40px; background: var(--offf-black); color: var(--offf-white); border-color: var(--offf-black);">
+        <div class="tag" style="color: var(--offf-white);">May 6–8</div>
+        <div class="numeral" style="font-size: 140px; line-height: 1; margin-top: 12px;">3</div>
+        <div class="small" style="margin-top: 12px;">days of festival</div>
+      </div>
+      <div class="card" style="flex: 1; padding: 40px; border-left: none;">
+        <div class="tag" style="color: var(--n-500);">The other</div>
+        <div class="numeral" style="font-size: 140px; line-height: 1; margin-top: 12px;">362</div>
+        <div class="small" style="margin-top: 12px;">days the community goes elsewhere — Substack, Behance, IG, Dezeen, It's Nice That.</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 64px; max-width: 1500px; color: var(--n-600);">
+      The community doesn't disappear between festivals. It scatters. SPIN OFFF is the signal that keeps it tuned in — year round, in OFFF's voice.
+    </div>
+  </div>
+  <div class="snum">[ 04 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     05 — THE VISION
+     ============================================================ -->
+<section data-label="05 The vision" class="bg-green">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>The vision</span></div>
+  <div class="slide" style="justify-content:center;">
+    <div class="tag" style="margin-bottom: 40px;">[ 05 ] The vision</div>
+    <div class="display" style="font-size: 200px; line-height: 0.88;">
+      The year-round<br/>home of creative<br/>culture.
+    </div>
+    <div class="lead" style="max-width: 1300px; margin-top: 56px;">
+      A media company spun off from OFFF — newsletter, membership, creative box. Anchored every month by one featured artist. Curated, opinionated, warm. We don't compete with free content. We curate against it.
+    </div>
+  </div>
+  <div class="snum">[ 05 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     06 — TEAM
+     ============================================================ -->
+<section data-label="06 The team">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Founding team</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 06 ] Who's building it</div>
+    <div class="title" style="max-width: 1500px;">Four founders.<br/>Operator, growth, craft, product.</div>
+
+    <div class="row" style="margin-top: 72px; gap: 24px;">
+      <div class="card" style="flex: 1; padding: 0;">
+        <div class="bg-orange" style="height: 220px; display:flex; align-items:flex-end; padding: 24px;">
+          <span class="numtag">[ 01 ]</span>
+        </div>
+        <div style="padding: 28px;">
+          <div class="sub" style="font-size: 38px;">Gabriela</div>
+          <div class="small" style="margin-top: 8px; color: var(--n-500);">Project Manager · Amazon</div>
+          <div class="small" style="margin-top: 16px;">Operations &amp; delivery rigor</div>
+        </div>
+      </div>
+      <div class="card" style="flex: 1; padding: 0;">
+        <div class="bg-cyan" style="height: 220px; display:flex; align-items:flex-end; padding: 24px;">
+          <span class="numtag">[ 02 ]</span>
+        </div>
+        <div style="padding: 28px;">
+          <div class="sub" style="font-size: 38px;">Yeva</div>
+          <div class="small" style="margin-top: 8px; color: var(--n-500);">International Business</div>
+          <div class="small" style="margin-top: 16px;">Growth &amp; community across markets</div>
+        </div>
+      </div>
+      <div class="card" style="flex: 1; padding: 0;">
+        <div class="bg-pink" style="height: 220px; display:flex; align-items:flex-end; padding: 24px;">
+          <span class="numtag">[ 03 ]</span>
+        </div>
+        <div style="padding: 28px;">
+          <div class="sub" style="font-size: 38px;">Lian</div>
+          <div class="small" style="margin-top: 8px; color: var(--n-500);">Visual Artist · Designer</div>
+          <div class="small" style="margin-top: 16px;">Brand &amp; editorial craft</div>
+        </div>
+      </div>
+      <div class="card" style="flex: 1; padding: 0;">
+        <div class="bg-electric" style="height: 220px; display:flex; align-items:flex-end; padding: 24px; color: var(--offf-white);">
+          <span class="numtag">[ 04 ]</span>
+        </div>
+        <div style="padding: 28px;">
+          <div class="sub" style="font-size: 38px;">Rodrigo</div>
+          <div class="small" style="margin-top: 8px; color: var(--n-500);">Entrepreneur · Tech &amp; Product</div>
+          <div class="small" style="margin-top: 16px;">Product, platform, fundraising</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="small" style="margin-top: 56px; color: var(--n-500); max-width: 1400px;">
+      Eight people on full salary from day one — four founders above + four production roles (content, social, AV, community). Plus a rotating featured artist (€2K/mo). Total Y1 team cost: €194K. Lean for a media company at this scope.
+    </div>
+  </div>
+  <div class="snum">[ 06 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     07 — WHAT IT IS (three layers)
+     ============================================================ -->
+<section data-label="07 What it is" class="bg-paper">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>What it is</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 07 ] Three layers, escalating commitment</div>
+    <div class="title" style="max-width: 1500px;">Free newsletter →<br/>paid membership → creative box.</div>
+
+    <div class="row" style="margin-top: 80px; gap: 24px; align-items:stretch;">
+      <div class="card grow" style="background: var(--offf-cyan); border-color: var(--offf-black); padding: 36px;">
+        <div class="tag">[ Layer 01 ] Audience</div>
+        <div class="sub" style="font-size: 48px; margin-top: 18px;">Free newsletter</div>
+        <div class="body-lg" style="margin-top: 18px;">Weekly. One artist of the month. Curated work, interviews, OFFF legacy. Free for the first three months — always.</div>
+        <div class="tag" style="margin-top: 28px;">M1 · Jan 2027</div>
+      </div>
+      <div class="card grow" style="background: var(--offf-orange); border-color: var(--offf-black); padding: 36px;">
+        <div class="tag">[ Layer 02 ] Community</div>
+        <div class="sub" style="font-size: 48px; margin-top: 18px;">Membership · €12/mo</div>
+        <div class="body-lg" style="margin-top: 18px;">Sponsor toolkits. Marketplace credit. Early-bird OFFF tickets. Free meetups. Mentor access. A passport, not a paywall.</div>
+        <div class="tag" style="margin-top: 28px;">M4 · Apr 2027</div>
+      </div>
+      <div class="card grow" style="background: var(--offf-pink); border-color: var(--offf-black); padding: 36px;">
+        <div class="tag">[ Layer 03 ] Product</div>
+        <div class="sub" style="font-size: 48px; margin-top: 18px;">Creative box</div>
+        <div class="body-lg" style="margin-top: 18px;">Monthly physical box of materials curated by the featured artist. Brand partners (Lego, Moleskine). Yearly award winner presents at OFFF.</div>
+        <div class="tag" style="margin-top: 28px;">Y4 · 2030</div>
+      </div>
+    </div>
+  </div>
+  <div class="snum">[ 07 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     08 — ARTIST OF THE MONTH (image-led)
+     ============================================================ -->
+<section data-label="08 Artist of the month">
+  <div style="display:grid; grid-template-columns: 1.1fr 1fr; height:100%;">
+    <div style="padding: 90px 72px 60px; display:flex; flex-direction:column; justify-content:space-between; min-height: 0; height: 1080px; box-sizing: border-box;">
+      <div>
+        <div class="tag" style="margin-bottom: 14px;">[ 08 ] The unifying mechanic</div>
+        <div class="title" style="font-size: 56px;">One artist.<br/>Anchors everything.</div>
+        <div class="lead" style="margin-top: 14px; color: var(--n-600); max-width: 720px; font-size: 24px;">
+          Each month, a featured artist is paid €2,000 to set the concept. Every channel runs on it.
+        </div>
+      </div>
+
+      <div class="stack gap-sm" style="margin-top: 12px;">
+        <div class="row middle gap-md" style="border-top: 2px solid var(--offf-black); padding: 6px 0;">
+          <span class="numtag">[ 01 ]</span><span class="body-lg" style="font-size: 24px;">Newsletter concept &amp; visuals</span>
+        </div>
+        <div class="row middle gap-md" style="border-top: 2px solid var(--offf-black); padding: 6px 0;">
+          <span class="numtag">[ 02 ]</span><span class="body-lg" style="font-size: 24px;">Monthly podcast / YouTube interview</span>
+        </div>
+        <div class="row middle gap-md" style="border-top: 2px solid var(--offf-black); padding: 6px 0;">
+          <span class="numtag">[ 03 ]</span><span class="body-lg" style="font-size: 24px;">IG &amp; TikTok collab posts</span>
+        </div>
+        <div class="row middle gap-md" style="border-top: 2px solid var(--offf-black); border-bottom: 2px solid var(--offf-black); padding: 6px 0;">
+          <span class="numtag">[ 04 ]</span><span class="body-lg" style="font-size: 24px;">Box curation + co-promotion to their audience</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 0;">
+      <div style="overflow:hidden; border-left: 2px solid var(--offf-black);"><img src="assets/sample-koto.jpg" class="fill" alt=""/></div>
+      <div style="overflow:hidden; border-left: 2px solid var(--offf-black);"><img src="assets/sample-tomorrow.jpg" class="fill" alt=""/></div>
+      <div style="overflow:hidden; border-left: 2px solid var(--offf-black); border-top: 2px solid var(--offf-black);"><img src="assets/sample-doberman.webp" class="fill" alt=""/></div>
+      <div style="overflow:hidden; border-left: 2px solid var(--offf-black); border-top: 2px solid var(--offf-black);"><img src="assets/sample-ogilvy.jpg" class="fill" alt=""/></div>
+    </div>
+  </div>
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Artist of the month</span></div>
+  <div class="snum">[ 08 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     09 — THE BOWTIE FUNNEL
+     ============================================================ -->
+<section data-label="09 The funnel" class="bg-paper">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>The funnel</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 24px;">[ 09 ] Acquisition · Conversion · Expansion</div>
+    <div class="title" style="font-size: 76px; max-width: 1700px;">A symmetrical funnel.<br/>Trust on the left. Revenue on the right.</div>
+
+    <div class="bowtie-wrap" style="margin-top: 40px;">
+      <svg viewBox="0 0 1700 460" width="100%" style="max-height: 520px;">
+        <defs>
+          <style>
+            .bt-text { font-family: "Space Grotesk", "Helvetica Neue", sans-serif; font-weight: 600; }
+            .bt-tag  { font-family: "JetBrains Mono", monospace; font-size: 24px; letter-spacing: 0.08em; text-transform: uppercase; fill: #1F1E1B; }
+            .bt-lbl  { font-size: 26px; fill: #000; }
+            .bt-num  { font-size: 36px; fill: #000; font-weight: 700; }
+          </style>
+        </defs>
+
+        <!-- LEFT TRIANGLE: acquisition (wide → narrow) -->
+        <polygon points="0,40 760,230 0,420" fill="#22D1FF" stroke="#000" stroke-width="3"/>
+        <!-- RIGHT TRIANGLE: expansion (narrow → wide) -->
+        <polygon points="940,230 1700,40 1700,420" fill="#FF7A2E" stroke="#000" stroke-width="3"/>
+        <!-- KNOT: membership conversion -->
+        <rect x="700" y="180" width="300" height="100" fill="#000" stroke="#000" stroke-width="3"/>
+        <text x="850" y="218" class="bt-text" text-anchor="middle" fill="#fff" font-size="24" letter-spacing="0.08em">[ THE KNOT ]</text>
+        <text x="850" y="260" class="bt-text" text-anchor="middle" fill="#fff" font-size="32">€12 / mo</text>
+
+        <!-- LEFT labels -->
+        <text x="40" y="80" class="bt-tag">[ Audience ]</text>
+        <text x="40" y="130" class="bt-text bt-num">OFFF community</text>
+        <text x="40" y="170" class="bt-text bt-lbl">200K–400K reachable</text>
+
+        <text x="280" y="240" class="bt-tag">[ Newsletter ]</text>
+        <text x="280" y="280" class="bt-text bt-num">5K–10K subs (Y1)</text>
+        <text x="280" y="320" class="bt-text bt-lbl">Free · Weekly</text>
+
+        <text x="540" y="380" class="bt-tag">[ Conversion ]</text>
+        <text x="540" y="420" class="bt-text bt-lbl">5–10% sub → member</text>
+
+        <!-- RIGHT labels -->
+        <text x="1080" y="80" class="bt-tag" text-anchor="start">[ Onboard ]</text>
+        <text x="1080" y="120" class="bt-text bt-lbl">Welcome &amp; first credits</text>
+
+        <text x="1280" y="170" class="bt-tag" text-anchor="start">[ Adopt ]</text>
+        <text x="1280" y="210" class="bt-text bt-lbl">Spend credits · attend meetups</text>
+
+        <text x="1280" y="280" class="bt-tag" text-anchor="start">[ Expand ]</text>
+        <text x="1280" y="320" class="bt-text bt-lbl">Box subscription (Y2)</text>
+
+        <text x="1080" y="380" class="bt-tag" text-anchor="start">[ Advocate ]</text>
+        <text x="1080" y="420" class="bt-text bt-lbl">UGC · referrals · award</text>
+      </svg>
+    </div>
+
+    <div class="small" style="margin-top: 24px; color: var(--n-500); max-width: 1500px;">
+      The membership is the knot. Every member who crosses it generates recurring revenue <em>and</em> generates content that pulls the next cohort in.
+    </div>
+  </div>
+  <div class="snum">[ 09 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     10 — MEMBER BENEFITS
+     ============================================================ -->
+<section data-label="10 Member benefits">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Member benefits</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 10 ] What €12 unlocks</div>
+    <div class="title" style="max-width: 1500px;">A passport into<br/>the OFFF ecosystem.</div>
+
+    <div class="row" style="margin-top: 72px; gap: 0; align-items:stretch; border-top: 2px solid var(--offf-black); border-bottom: 2px solid var(--offf-black);">
+      <div style="flex:1; padding: 32px 28px; border-right: 2px solid var(--offf-black);">
+        <span class="numtag">[ 01 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 18px;">Sponsor toolkits &amp; discounts</div>
+      </div>
+      <div style="flex:1; padding: 32px 28px; border-right: 2px solid var(--offf-black);">
+        <span class="numtag">[ 02 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 18px;">Marketplace credit system</div>
+      </div>
+      <div style="flex:1; padding: 32px 28px; border-right: 2px solid var(--offf-black);">
+        <span class="numtag">[ 03 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 18px;">Early-bird OFFF tickets</div>
+      </div>
+      <div style="flex:1; padding: 32px 28px;">
+        <span class="numtag">[ 04 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 18px;">Exclusive digital art drops</div>
+      </div>
+    </div>
+
+    <div class="row" style="gap: 0; align-items:stretch; border-bottom: 2px solid var(--offf-black);">
+      <div style="flex:1; padding: 32px 28px; border-right: 2px solid var(--offf-black);">
+        <span class="numtag">[ 05 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 18px;">Free meetups &amp; events</div>
+      </div>
+      <div style="flex:1; padding: 32px 28px; border-right: 2px solid var(--offf-black);">
+        <span class="numtag">[ 06 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 18px;">Mentor &amp; networking access</div>
+      </div>
+      <div style="flex:1; padding: 32px 28px; border-right: 2px solid var(--offf-black);">
+        <span class="numtag">[ 07 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 18px;">Artist-of-the-month deep dives</div>
+      </div>
+      <div style="flex:1; padding: 32px 28px;">
+        <span class="numtag">[ 08 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 18px;">Yearly creator award entry</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 48px; max-width: 1500px; color: var(--n-600);">
+      Every benefit pulls the member <em>deeper</em> into OFFF — not away from it. Credits route spend into the OFFF marketplace; early access funnels into festival ticket sales.
+    </div>
+  </div>
+  <div class="snum">[ 10 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     11 — UNFAIR ADVANTAGE
+     ============================================================ -->
+<section data-label="11 Unfair advantage" class="bg-black">
+  <div class="bar invert"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Unfair advantage</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px; color: var(--offf-green);">[ 11 ] What 25 years of OFFF earned</div>
+    <div class="title" style="max-width: 1700px;">We don't have a<br/>marketing budget.<br/><span style="color: var(--offf-green);">We don't need one.</span></div>
+
+    <div class="row" style="margin-top: 64px; gap: 32px; align-items:stretch;">
+      <div style="flex:1; border: 2px solid var(--offf-white); padding: 28px;">
+        <div class="numeral" style="font-size: 96px; color: var(--offf-cyan); line-height: 1;">200K+</div>
+        <div class="small" style="margin-top: 12px; color: var(--n-200);">past attendees &amp; followers reachable on day one</div>
+      </div>
+      <div style="flex:1; border: 2px solid var(--offf-white); padding: 28px;">
+        <div class="numeral" style="font-size: 96px; color: var(--offf-orange); line-height: 1;">25</div>
+        <div class="small" style="margin-top: 12px; color: var(--n-200);">years of artist relationships, ready for the rotation</div>
+      </div>
+      <div style="flex:1; border: 2px solid var(--offf-white); padding: 28px;">
+        <div class="numeral" style="font-size: 96px; color: var(--offf-pink); line-height: 1;">€0</div>
+        <div class="small" style="margin-top: 12px; color: var(--n-200);">paid acquisition budget needed in Year 1</div>
+      </div>
+      <div style="flex:1; border: 2px solid var(--offf-white); padding: 28px;">
+        <div class="numeral" style="font-size: 96px; color: var(--offf-green); line-height: 1;">3</div>
+        <div class="small" style="margin-top: 12px; color: var(--n-200);">cities (BCN · Sevilla · Montreal) for guerrilla activation</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 56px; max-width: 1500px; color: var(--n-200);">
+      Sponsor network for member perks. Government tax structures via art sponsorship. Brand trust earned across the global creative industry. None of this is buy-able. All of it is borrowable, on terms we agree.
+    </div>
+  </div>
+  <div class="snum">[ 11 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     12 — MARKET (TAM/SAM/SOM)
+     ============================================================ -->
+<section data-label="12 Market">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Market</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 12 ] TAM · SAM · SOM</div>
+    <div class="title" style="max-width: 1500px;">A global market<br/>with a curated lane.</div>
+
+    <div class="row" style="margin-top: 80px; gap: 32px; align-items:stretch;">
+      <div class="card" style="flex:1; padding: 36px; background: var(--offf-paper);">
+        <div class="tag">[ TAM ]</div>
+        <div class="numeral" style="font-size: 120px; line-height: 1; margin-top: 16px;">150–200M</div>
+        <div class="small" style="margin-top: 16px;">people globally interested in design, art, motion, illustration.</div>
+        <div class="small" style="margin-top: 12px; color: var(--n-500);">Proxies: Adobe Creative Cloud (33M) · Behance (30M)</div>
+      </div>
+      <div class="card" style="flex:1; padding: 36px; background: var(--offf-cyan);">
+        <div class="tag">[ SAM ]</div>
+        <div class="numeral" style="font-size: 120px; line-height: 1; margin-top: 16px;">15–20M</div>
+        <div class="small" style="margin-top: 16px;">aligned with OFFF's world — designers, motion artists, creative directors.</div>
+        <div class="small" style="margin-top: 12px;">It's Nice That · Dezeen · Motionographer audience.</div>
+      </div>
+      <div class="card" style="flex:1; padding: 36px; background: var(--offf-orange);">
+        <div class="tag">[ SOM ]</div>
+        <div class="numeral" style="font-size: 120px; line-height: 1; margin-top: 16px;">500K</div>
+        <div class="small" style="margin-top: 16px;">reachable via OFFF community.</div>
+        <div class="small" style="margin-top: 12px;">3-yr target: 10K–30K paying members.</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 28px; max-width: 1500px; color: var(--n-600); font-size: 28px;">
+      We don't need to capture the market — only a tenth of one percent of the SAM is a €1M+ ARR business at €12 / month.
+    </div>
+  </div>
+  <div class="snum">[ 12 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     13 — BUSINESS MODEL & PRICING
+     ============================================================ -->
+<section data-label="13 Business model" class="bg-paper">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Business model</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 13 ] Three revenue streams in Y1</div>
+    <div class="title" style="max-width: 1500px;">€12 / month.<br/>Plus sponsorship. Plus ads.</div>
+
+    <div class="row" style="margin-top: 64px; gap: 0;">
+      <div style="flex: 1.4;">
+        <table class="tbl">
+          <thead>
+            <tr><th style="width:40%;">Stream</th><th>Starts</th><th>Y1 contribution</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Membership · €12 / mo (~$12)</td><td class="num">M4</td><td class="num">€63.6K</td></tr>
+            <tr><td>Newsletter sponsorship</td><td class="num">M3</td><td class="num">€25.0K</td></tr>
+            <tr><td>Ads · YouTube / IG / TikTok</td><td class="num">M6</td><td class="num">€2.6K</td></tr>
+            <tr><td>Podcast / YouTube sponsorship</td><td class="num">M6–M7</td><td class="num">included</td></tr>
+            <tr style="background: var(--offf-black); color: var(--offf-white);">
+              <td style="color: var(--offf-white);">Total Y1 revenue</td><td></td><td class="num" style="color: var(--offf-white);">€91.2K</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="flex: 1; padding-left: 48px; display:flex; flex-direction:column; justify-content:flex-start; gap: 18px;">
+        <div class="card" style="padding: 22px 26px; background: var(--offf-green);">
+          <div class="tag">[ Why €12 ]</div>
+          <div class="body-lg" style="margin-top: 8px; font-size: 26px;">Funds the €2K artist fee, the perks ecosystem, the production team.</div>
+        </div>
+        <div class="card" style="padding: 22px 26px;">
+          <div class="tag" style="color: var(--n-500);">[ Conversion ]</div>
+          <div class="body-lg" style="margin-top: 8px; font-size: 26px;">5–10% of subs convert. <strong>Monthly churn target &lt; 5%.</strong></div>
+        </div>
+        <div class="card" style="padding: 22px 26px;">
+          <div class="tag" style="color: var(--n-500);">[ Box · Y4 ]</div>
+          <div class="body-lg" style="margin-top: 8px; font-size: 26px;">Add-on physical subscription. ~15% opt-in at ~€25/mo. Adds €655K across Y4–Y5.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="snum">[ 13 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     14 — YEAR 1 PLAN (revenue ramp chart)
+     ============================================================ -->
+<section data-label="14 Year 1 plan">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Year 1</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 14 ] Jan 2027 → Dec 2027 · the building year</div>
+    <div class="title" style="max-width: 1700px;">Newsletter M1. Members M4.<br/>End Y1: 1,000 members, €16.5K MRR.</div>
+
+    <!-- Bar chart: monthly revenue vs. monthly cost line. costs flat at ~€17K; revenue ramps to €16.5K. Bars in €K -->
+    <div style="margin-top: 56px; height: 320px; display:flex; flex-direction:column; position: relative;">
+      <!-- cost line at ~85% (17K / 20K scale) -->
+      <div style="position:absolute; left:0; right:0; top: 15%; border-top: 2px dashed var(--offf-black); z-index: 2; pointer-events:none;"></div>
+      <div style="position:absolute; right: 0; top: 12%; font-family: var(--font-mono); font-size: 22px; letter-spacing: 0.06em; text-transform: uppercase; background: var(--offf-white); padding: 0 8px; z-index: 3;">Monthly cost ~€17K</div>
+
+      <div class="bars" style="flex:1; position:relative; z-index: 1;">
+        <!-- revenue ramps 0, 0, 0.5K, 2.8K, 4.5K, 7K, 8.8K, 10.6K, 11.8K, 13.5K, 15.3K, 16.5K  (scale 20K) -->
+        <div class="bar-col"><div class="bar-stack" style="height: 0%;"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 0%;"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 3%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 14%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 23%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 35%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 44%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 53%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 59%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 68%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 77%; background: var(--offf-orange);"></div></div>
+        <div class="bar-col"><div class="bar-stack" style="height: 83%; background: var(--offf-orange);"></div></div>
+      </div>
+      <div style="display:grid; grid-template-columns: repeat(12, 1fr); gap: 12px; margin-top: 16px;">
+        <div class="tag" style="text-align:center;">M1</div>
+        <div class="tag" style="text-align:center;">M2</div>
+        <div class="tag" style="text-align:center;">M3</div>
+        <div class="tag" style="text-align:center;">M4</div>
+        <div class="tag" style="text-align:center;">M5</div>
+        <div class="tag" style="text-align:center;">M6</div>
+        <div class="tag" style="text-align:center;">M7</div>
+        <div class="tag" style="text-align:center;">M8</div>
+        <div class="tag" style="text-align:center;">M9</div>
+        <div class="tag" style="text-align:center;">M10</div>
+        <div class="tag" style="text-align:center;">M11</div>
+        <div class="tag" style="text-align:center;">M12</div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 40px; gap: 20px;">
+      <div class="card" style="flex:1; padding: 22px 26px;">
+        <div class="tag" style="color: var(--n-500);">M1 · Newsletter</div>
+        <div class="sub" style="font-size: 32px; margin-top: 8px;">1,000 subs</div>
+      </div>
+      <div class="card" style="flex:1; padding: 22px 26px; background: var(--offf-orange);">
+        <div class="tag">M4 · Membership</div>
+        <div class="sub" style="font-size: 32px; margin-top: 8px;">150 paying</div>
+      </div>
+      <div class="card" style="flex:1; padding: 22px 26px;">
+        <div class="tag" style="color: var(--n-500);">M12 · End Y1</div>
+        <div class="sub" style="font-size: 32px; margin-top: 8px;">1,000 members · €16.5K MRR</div>
+      </div>
+      <div class="card" style="flex:1; padding: 22px 26px; background: var(--offf-black); color: var(--offf-white); border-color: var(--offf-black);">
+        <div class="tag" style="color: var(--offf-green);">Y1 Net</div>
+        <div class="sub" style="font-size: 32px; margin-top: 8px;">-€115K</div>
+      </div>
+      <div class="card" style="flex:1; padding: 22px 26px; background: var(--offf-green);">
+        <div class="tag">M13 · Start Y2</div>
+        <div class="sub" style="font-size: 32px; margin-top: 8px;">Monthly break-even</div>
+      </div>
+    </div>
+
+    <div class="small" style="margin-top: 28px; color: var(--n-500); max-width: 1700px;">
+      Costs are flat ~€17K/mo (team €16.2K + ops €600). Revenue closes the gap monthly. Y1 ends just below the cost line — the deficit is the seed ask.
+    </div>
+  </div>
+  <div class="snum">[ 14 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     15 — 5-YEAR P&L
+     ============================================================ -->
+<section data-label="15 5-year P&amp;L" class="bg-electric">
+  <div class="bar invert"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>5-year P&amp;L</span></div>
+  <div class="slide" style="padding-top: 140px;">
+    <div class="tag" style="margin-bottom: 20px; color: var(--offf-pink);">[ 15 ] Y1 — Y5 · 2027 → 2031</div>
+    <div class="title" style="font-size: 88px; max-width: 1700px;">€3.9M revenue. €1.49M costs.<br/><span style="color: var(--offf-cyan);">+€2.43M cumulative.</span></div>
+
+    <!-- Stacked area-style bars: revenue (cyan/pink stack) vs costs (orange dashed line via outlined block) per year. Cumulative net line shown below. -->
+    <div style="margin-top: 44px; display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap: 12px;">
+
+      <!-- Y1 -->
+      <div style="border: 2px solid var(--offf-white); padding: 22px;">
+        <div class="tag" style="color: var(--offf-pink);">[ Year 1 ]</div>
+        <div class="numeral" style="font-size: 56px; line-height: 1; margin-top: 12px;">1,000</div>
+        <div class="small" style="margin-top: 6px; color: var(--n-200);">members EoY</div>
+        <div style="margin-top: 22px; border-top: 1px solid var(--offf-white); padding-top: 12px;">
+          <div class="small" style="color: var(--n-200);">Revenue</div>
+          <div class="sub" style="font-size: 36px; color: var(--offf-cyan);">€91K</div>
+          <div class="small" style="margin-top: 10px; color: var(--n-200);">Costs</div>
+          <div class="sub" style="font-size: 36px;">€206K</div>
+          <div class="small" style="margin-top: 10px; color: var(--n-200);">Net</div>
+          <div class="sub" style="font-size: 36px; color: var(--offf-orange);">-€115K</div>
+        </div>
+      </div>
+
+      <!-- Y2 -->
+      <div style="border: 2px solid var(--offf-white); padding: 22px;">
+        <div class="tag" style="color: var(--offf-pink);">[ Year 2 ]</div>
+        <div class="numeral" style="font-size: 56px; line-height: 1; margin-top: 12px;">2,500</div>
+        <div class="small" style="margin-top: 6px; color: var(--n-200);">members EoY</div>
+        <div style="margin-top: 22px; border-top: 1px solid var(--offf-white); padding-top: 12px;">
+          <div class="small" style="color: var(--n-200);">Revenue</div>
+          <div class="sub" style="font-size: 36px; color: var(--offf-cyan);">€345K</div>
+          <div class="small" style="margin-top: 10px; color: var(--n-200);">Costs</div>
+          <div class="sub" style="font-size: 36px;">€213K</div>
+          <div class="small" style="margin-top: 10px; color: var(--n-200);">Net</div>
+          <div class="sub" style="font-size: 36px; color: var(--offf-green);">+€132K</div>
+        </div>
+      </div>
+
+      <!-- Y3 -->
+      <div style="border: 2px solid var(--offf-white); padding: 22px;">
+        <div class="tag" style="color: var(--offf-pink);">[ Year 3 ]</div>
+        <div class="numeral" style="font-size: 56px; line-height: 1; margin-top: 12px;">4,500</div>
+        <div class="small" style="margin-top: 6px; color: var(--n-200);">members EoY</div>
+        <div style="margin-top: 22px; border-top: 1px solid var(--offf-white); padding-top: 12px;">
+          <div class="small" style="color: var(--n-200);">Revenue</div>
+          <div class="sub" style="font-size: 36px; color: var(--offf-cyan);">€677K</div>
+          <div class="small" style="margin-top: 10px; color: var(--n-200);">Costs</div>
+          <div class="sub" style="font-size: 36px;">€220K</div>
+          <div class="small" style="margin-top: 10px; color: var(--n-200);">Net</div>
+          <div class="sub" style="font-size: 36px; color: var(--offf-green);">+€457K</div>
+        </div>
+      </div>
+
+      <!-- Y4 -->
+      <div style="border: 2px solid var(--offf-white); padding: 22px; background: rgba(255,255,255,0.05);">
+        <div class="tag" style="color: var(--offf-pink);">[ Year 4 · Box ]</div>
+        <div class="numeral" style="font-size: 56px; line-height: 1; margin-top: 12px;">7,000</div>
+        <div class="small" style="margin-top: 6px; color: var(--n-200);">members EoY</div>
+        <div style="margin-top: 22px; border-top: 1px solid var(--offf-white); padding-top: 12px;">
+          <div class="small" style="color: var(--n-200);">Revenue</div>
+          <div class="sub" style="font-size: 36px; color: var(--offf-cyan);">€1.18M</div>
+          <div class="small" style="margin-top: 10px; color: var(--n-200);">Costs</div>
+          <div class="sub" style="font-size: 36px;">€339K</div>
+          <div class="small" style="margin-top: 10px; color: var(--n-200);">Net</div>
+          <div class="sub" style="font-size: 36px; color: var(--offf-green);">+€792K</div>
+        </div>
+      </div>
+
+      <!-- Y5 -->
+      <div style="background: var(--offf-cyan); color: var(--offf-black); border: 2px solid var(--offf-cyan); padding: 22px;">
+        <div class="tag">[ Year 5 ]</div>
+        <div class="numeral" style="font-size: 56px; line-height: 1; margin-top: 12px;">10,000</div>
+        <div class="small" style="margin-top: 6px;">members EoY</div>
+        <div style="margin-top: 22px; border-top: 1px solid var(--offf-black); padding-top: 12px;">
+          <div class="small">Revenue</div>
+          <div class="sub" style="font-size: 36px;">€1.93M</div>
+          <div class="small" style="margin-top: 10px;">Costs</div>
+          <div class="sub" style="font-size: 36px;">€514K</div>
+          <div class="small" style="margin-top: 10px;">Net</div>
+          <div class="sub" style="font-size: 36px;">+€1.16M</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom callout strip -->
+    <div class="row" style="margin-top: 40px; gap: 24px; align-items:stretch;">
+      <div style="flex:1; border: 2px solid var(--offf-white); padding: 22px 26px;">
+        <div class="tag" style="color: var(--offf-pink);">Monthly break-even</div>
+        <div class="sub" style="font-size: 36px; margin-top: 8px;">Month 13 · start of Y2</div>
+      </div>
+      <div style="flex:1; border: 2px solid var(--offf-white); padding: 22px 26px;">
+        <div class="tag" style="color: var(--offf-pink);">Cumulative break-even</div>
+        <div class="sub" style="font-size: 36px; margin-top: 8px;">Q4 · Year 2</div>
+      </div>
+      <div style="flex:1; border: 2px solid var(--offf-white); padding: 22px 26px;">
+        <div class="tag" style="color: var(--offf-pink);">Box subscription launch</div>
+        <div class="sub" style="font-size: 36px; margin-top: 8px;">Y4 · +€655K (Y4–Y5)</div>
+      </div>
+      <div style="flex:1; background: var(--offf-green); color: var(--offf-black); padding: 22px 26px;">
+        <div class="tag">5-yr cumulative net</div>
+        <div class="sub" style="font-size: 36px; margin-top: 8px;">+€2.43M</div>
+      </div>
+    </div>
+  </div>
+  <div class="snum">[ 15 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     16 — RISKS & MITIGATIONS
+     ============================================================ -->
+<section data-label="16 Risks">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Risks</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 16 ] What could go wrong, and how we hold it</div>
+    <div class="title" style="max-width: 1500px;">Three honest risks.<br/>Three concrete mitigations.</div>
+
+    <div class="stack" style="margin-top: 64px; border-top: 2px solid var(--offf-black);">
+      <div class="row" style="border-bottom: 2px solid var(--offf-black); padding: 28px 0; gap: 32px; align-items:flex-start;">
+        <div style="flex: 0 0 80px;"><span class="numtag">[ 01 ]</span></div>
+        <div style="flex: 1.2;"><div class="sub" style="font-size: 36px;">Cannibalizing OFFF</div></div>
+        <div style="flex: 2;"><div class="body-lg">Members get <strong>early-bird festival access</strong>; credits route spend into the OFFF marketplace; UGC feeds back into OFFF channels. Complement, not substitute.</div></div>
+      </div>
+      <div class="row" style="border-bottom: 2px solid var(--offf-black); padding: 28px 0; gap: 32px; align-items:flex-start;">
+        <div style="flex: 0 0 80px;"><span class="numtag">[ 02 ]</span></div>
+        <div style="flex: 1.2;"><div class="sub" style="font-size: 36px;">Churn over 5%</div></div>
+        <div style="flex: 2;"><div class="body-lg">Membership is <strong>multi-vector</strong> — content + perks + credits + access. A member who skips one vector still uses another. Diversification is the moat.</div></div>
+      </div>
+      <div class="row" style="border-bottom: 2px solid var(--offf-black); padding: 28px 0; gap: 32px; align-items:flex-start;">
+        <div style="flex: 0 0 80px;"><span class="numtag">[ 03 ]</span></div>
+        <div style="flex: 1.2;"><div class="sub" style="font-size: 36px;">Brand dilution</div></div>
+        <div style="flex: 2;"><div class="body-lg">Pep retains <strong>approval rights</strong> on featured artists, sponsors, and brand-level changes. SPIN OFFF inherits OFFF's design system; no parallel brand world.</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="snum">[ 16 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     17 — INVESTMENT ASK
+     ============================================================ -->
+<section data-label="17 Investment ask" class="bg-orange">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Capital</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 28px;">[ 17 ] The seed round</div>
+    <div class="title" style="max-width: 1700px;">~€125K seed investment.<br/>Capital recovered in Year 2.</div>
+
+    <div class="row" style="margin-top: 64px; gap: 32px; align-items:stretch;">
+      <div class="card" style="flex:1; padding: 36px; background: var(--offf-white);">
+        <div class="tag" style="color: var(--n-500);">[ The ask ]</div>
+        <div class="numeral" style="font-size: 120px; line-height: 1; margin-top: 18px;">€125K</div>
+        <div class="small" style="margin-top: 16px; color: var(--n-500);">seed to cover the Y1 deficit (€115K) plus buffer. Eight people, full salary. Zero paid acquisition.</div>
+      </div>
+      <div class="card" style="flex:1; padding: 36px; background: var(--offf-white);">
+        <div class="tag" style="color: var(--n-500);">[ Timeline ]</div>
+        <div class="sub" style="font-size: 44px; margin-top: 18px;">Monthly break-even: M13</div>
+        <div class="sub" style="font-size: 44px; margin-top: 14px; color: var(--n-400);">Cumulative: Q4 Year 2</div>
+        <div class="small" style="margin-top: 28px; color: var(--n-500);">5-year cumulative net: <strong>+€2.43M</strong></div>
+      </div>
+      <div class="card" style="flex:1; padding: 36px; background: var(--offf-black); color: var(--offf-white); border-color: var(--offf-black);">
+        <div class="tag" style="color: var(--offf-green);">[ Structure ]</div>
+        <div class="sub" style="font-size: 36px; margin-top: 18px;">Natural investor:<br/>OFFF as equity co-funder.</div>
+        <div class="small" style="margin-top: 24px; color: var(--n-200);">Or we raise externally — we're asking for your blessing to proceed.</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 56px; max-width: 1700px;">
+      Capital from OFFF comes back to OFFF — as equity, as brand, as ecosystem flywheel. The return on this seed is a media company that makes OFFF bigger every month.
+    </div>
+  </div>
+  <div class="snum">[ 17 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     18 — CLOSING
+     ============================================================ -->
+<section data-label="18 Closing" class="bg-black">
+  <div class="bar invert"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Closing</span></div>
+  <div class="slide" style="justify-content:center;">
+    <div class="tag" style="margin-bottom: 32px; color: var(--offf-green);">[ 18 ] Why we're doing this</div>
+    <div class="display" style="font-size: 180px; line-height: 0.9; max-width: 1700px;">
+      We don't<br/>monetize until<br/>we've earned trust.
+    </div>
+
+    <div class="row" style="margin-top: 88px; gap: 48px;">
+      <div style="flex:1; border-top: 2px solid var(--offf-green); padding-top: 24px;">
+        <div class="tag" style="color: var(--offf-green);">[ 01 ]</div>
+        <div class="lead" style="margin-top: 16px;">Fight against samification.</div>
+      </div>
+      <div style="flex:1; border-top: 2px solid var(--offf-green); padding-top: 24px;">
+        <div class="tag" style="color: var(--offf-green);">[ 02 ]</div>
+        <div class="lead" style="margin-top: 16px;">Meaningful art and design to help fix this messy world.</div>
+      </div>
+    </div>
+
+    <div class="small" style="margin-top: 48px; color: var(--n-300); font-size: 24px;">SPIN OFFF · A spin-off. Same DNA. New rotation.</div>
+  </div>
+  <div class="snum" style="color: var(--offf-white);">[ 18 / 18 ]</div>
+</section>
+
+<!-- ============================================================
+     APPENDIX — Q&A SLIDES
+     ============================================================ -->
+
+<!-- A1 — free content concern -->
+<section data-label="A1 Free content" class="bg-paper">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Q&amp;A · Appendix A1</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 24px; color: var(--offf-red);">[ Pep's main concern ]</div>
+    <div class="title" style="font-size: 76px; max-width: 1700px;">"How do we monetize when so much<br/>creative content is free online?"</div>
+
+    <div class="row" style="margin-top: 64px; gap: 24px;">
+      <div class="card" style="flex:1; padding: 32px; background: var(--offf-cyan);">
+        <span class="numtag">[ 01 ]</span>
+        <div class="sub" style="font-size: 36px; margin-top: 14px;">Curation</div>
+        <div class="body-lg" style="margin-top: 14px;">25 years of OFFF taste, applied weekly to one named artist. Volume is free; <strong>taste is rare</strong>.</div>
+      </div>
+      <div class="card" style="flex:1; padding: 32px; background: var(--offf-orange);">
+        <span class="numtag">[ 02 ]</span>
+        <div class="sub" style="font-size: 36px; margin-top: 14px;">Access</div>
+        <div class="body-lg" style="margin-top: 14px;">Physical events, early-bird tickets, mentor networking, marketplace credit. Free content can't deliver any of this.</div>
+      </div>
+      <div class="card" style="flex:1; padding: 32px; background: var(--offf-pink);">
+        <span class="numtag">[ 03 ]</span>
+        <div class="sub" style="font-size: 36px; margin-top: 14px;">Belonging</div>
+        <div class="body-lg" style="margin-top: 14px;">Members are <strong>participants</strong>, not consumers. UGC + collab section turn each member into a node in the OFFF ecosystem.</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 56px; max-width: 1700px; color: var(--n-600);">
+      The membership isn't a paywall on content. It's a passport into the OFFF ecosystem.
+    </div>
+  </div>
+  <div class="snum">[ A1 ]</div>
+</section>
+
+<!-- A2 — why €12 -->
+<section data-label="A2 Why €12">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Q&amp;A · Appendix A2</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 24px;">[ Why this price ]</div>
+    <div class="title" style="font-size: 76px; max-width: 1700px;">"Why €12 / month?<br/>Could it be cheaper?"</div>
+
+    <div class="row" style="margin-top: 64px; gap: 0; align-items:stretch; border: 2px solid var(--offf-black);">
+      <div style="flex:1; padding: 32px; border-right: 2px solid var(--offf-black);">
+        <div class="tag" style="color: var(--n-500);">Funds</div>
+        <div class="numeral" style="font-size: 72px; margin-top: 12px;">€2,000</div>
+        <div class="small" style="margin-top: 10px;">monthly featured-artist fee</div>
+      </div>
+      <div style="flex:1; padding: 32px; border-right: 2px solid var(--offf-black);">
+        <div class="tag" style="color: var(--n-500);">Funds</div>
+        <div class="numeral" style="font-size: 72px; margin-top: 12px;">~€4.7K</div>
+        <div class="small" style="margin-top: 10px;">production team (content + social)</div>
+      </div>
+      <div style="flex:1; padding: 32px; border-right: 2px solid var(--offf-black);">
+        <div class="tag" style="color: var(--n-500);">Funds</div>
+        <div class="numeral" style="font-size: 72px; margin-top: 12px;">8 perks</div>
+        <div class="small" style="margin-top: 10px;">across credits · access · toolkits</div>
+      </div>
+      <div style="flex:1; padding: 32px; background: var(--offf-green);">
+        <div class="tag">Net</div>
+        <div class="numeral" style="font-size: 72px; margin-top: 12px;">€11.1K</div>
+        <div class="small" style="margin-top: 10px;">Y1 net at this price</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 56px; max-width: 1700px; color: var(--n-600);">
+      Below €12 forces compromise on either artist pay or member benefits — both unacceptable. Early-adopter pricing at launch (M4) is allowed to drive momentum.
+    </div>
+  </div>
+  <div class="snum">[ A2 ]</div>
+</section>
+
+<!-- A3 — cannibalization -->
+<section data-label="A3 Cannibalization" class="bg-paper">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Q&amp;A · Appendix A3</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 24px;">[ Brand &amp; ecosystem ]</div>
+    <div class="title" style="font-size: 76px; max-width: 1700px;">"Won't this cannibalize<br/>the festival?"</div>
+
+    <div class="row" style="margin-top: 64px; gap: 24px;">
+      <div class="card" style="flex:1; padding: 32px;">
+        <span class="numtag">[ 01 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 14px;">Year-round attention</div>
+        <div class="body-lg" style="margin-top: 12px;">Keeps OFFF top-of-mind in the 362 days between festivals.</div>
+      </div>
+      <div class="card" style="flex:1; padding: 32px;">
+        <span class="numtag">[ 02 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 14px;">Ticket sales</div>
+        <div class="body-lg" style="margin-top: 12px;">Members get <strong>early-bird access</strong> — higher conversion, not lower.</div>
+      </div>
+      <div class="card" style="flex:1; padding: 32px;">
+        <span class="numtag">[ 03 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 14px;">Marketplace credit</div>
+        <div class="body-lg" style="margin-top: 12px;">Member spend routes <strong>into</strong> OFFF's partner ecosystem.</div>
+      </div>
+      <div class="card" style="flex:1; padding: 32px;">
+        <span class="numtag">[ 04 ]</span>
+        <div class="sub" style="font-size: 32px; margin-top: 14px;">UGC pipeline</div>
+        <div class="body-lg" style="margin-top: 12px;">Yearly award + box winners present at OFFF — content OFFF can use.</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 56px; max-width: 1700px; color: var(--n-600);">
+      Complement, not substitute. The OFFF brand gets year-round oxygen; OFFF the festival gets a warmer, larger, more loyal audience to sell tickets to.
+    </div>
+  </div>
+  <div class="snum">[ A3 ]</div>
+</section>
+
+<!-- A4 — churn -->
+<section data-label="A4 Churn">
+  <div class="bar"><span class="left"><span class="dot"></span> SPIN OFFF</span><span>Q&amp;A · Appendix A4</span></div>
+  <div class="slide" style="padding-top: 160px;">
+    <div class="tag" style="margin-bottom: 24px;">[ Retention ]</div>
+    <div class="title" style="font-size: 76px; max-width: 1700px;">"What if churn is<br/>higher than 5%?"</div>
+
+    <div class="row" style="margin-top: 64px; gap: 0; border-top: 2px solid var(--offf-black); border-bottom: 2px solid var(--offf-black);">
+      <div style="flex:1; padding: 28px; border-right: 2px solid var(--offf-black);">
+        <div class="tag" style="color: var(--offf-orange);">Vector 01</div>
+        <div class="sub" style="font-size: 30px; margin-top: 12px;">Content</div>
+        <div class="small" style="margin-top: 10px; color: var(--n-500);">Newsletter, podcast, deep dives.</div>
+      </div>
+      <div style="flex:1; padding: 28px; border-right: 2px solid var(--offf-black);">
+        <div class="tag" style="color: var(--offf-cyan);">Vector 02</div>
+        <div class="sub" style="font-size: 30px; margin-top: 12px;">Perks</div>
+        <div class="small" style="margin-top: 10px; color: var(--n-500);">Sponsor toolkits &amp; discounts.</div>
+      </div>
+      <div style="flex:1; padding: 28px; border-right: 2px solid var(--offf-black);">
+        <div class="tag" style="color: var(--offf-green);">Vector 03</div>
+        <div class="sub" style="font-size: 30px; margin-top: 12px;">Credits</div>
+        <div class="small" style="margin-top: 10px; color: var(--n-500);">Spend in OFFF marketplace.</div>
+      </div>
+      <div style="flex:1; padding: 28px;">
+        <div class="tag" style="color: var(--offf-pink);">Vector 04</div>
+        <div class="sub" style="font-size: 30px; margin-top: 12px;">Access</div>
+        <div class="small" style="margin-top: 10px; color: var(--n-500);">Early-bird tickets · meetups · mentors.</div>
+      </div>
+    </div>
+
+    <div class="lead" style="margin-top: 56px; max-width: 1700px; color: var(--n-600);">
+      A member who stops reading the newsletter still spends their credits and uses their early-bird ticket. <strong>Diversification across four vectors is the churn moat</strong> — and we measure usage on each one monthly.
+    </div>
+  </div>
+  <div class="snum">[ A4 ]</div>
+</section>
+
+</deck-stage>
+
+<script>
+(async () => {
+  try { await customElements.whenDefined('deck-stage'); } catch (e) {}
+  try { await document.fonts.ready; } catch (e) {}
+  setTimeout(() => { try { window.print(); } catch (e) {} }, 500);
+})();
+</script>
+</body>
+</html>

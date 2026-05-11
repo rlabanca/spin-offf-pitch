@@ -15,12 +15,15 @@ A small founding team uses this repo together with Claude to build SPIN OFFF. Tr
 - **Newsletter launch:** **January 2027** (= M1 of the financial plan).
 - **Membership launch:** **April 2027** (= M4) — deliberately ~1 month before OFFF Barcelona 2027.
 - **Membership price:** €12 / month (financial model). USD parity (~$12) for international messaging.
-- **Box subscription launch:** Q1 2028 (Year 2). EU-only at launch.
-- **Y1 outcome (target):** 1,000 paying members · €16.5K MRR · cumulative break-even by November 2027.
+- **Box subscription launch:** **Year 4 (2030)**. EU-only at launch. (Was previously Q1 2028 / Y2; deferred to Y4 so it ships only when audience scale justifies physical ops.)
+- **Founding team:** **Gabriela** (ops · ex-Amazon PM), **Yeva** (international growth), **Lian** (visual craft / design), **Rodrigo** (tech & product · fundraising).
+- **Y1 team shape:** **8 people on full salary from day one** — 4 founders + 4 production roles (content, social, AV, community). Plus rotating featured artist (€2K/mo).
+- **Y1 outcome (target):** 1,000 paying members · €16.5K MRR · Y1 net **−€115K** · monthly break-even at **M13 (Jan 2028)** · cumulative break-even (capital recovered) **Q4 2028**.
+- **Seed ask:** **~€125K** to cover the Y1 deficit + buffer. Natural investor: OFFF as equity co-funder. 5-year cumulative net **+€2.43M**.
 
 ## How to think about SPIN OFFF
 
-- **Funnel:** website → free newsletter → paid membership → (Y2+) creative box.
+- **Funnel:** website → free newsletter → paid membership → (Y4+) creative box.
 - **Unfair advantage:** OFFF's existing community, artist roster, sponsor network, government relationships.
 - **Core narrative:** *"We don't monetize until we've earned trust."* Newsletter is free for the first 3 months before any paid layer is asked of users.
 - **Two key messages:**
@@ -58,8 +61,8 @@ Read these in order if you're new to the project:
 ## What is *not* yet decided (open questions to surface, not assume)
 
 - Domain name (no `.com` registered yet).
-- Founding team beyond Pep — to be filled in.
 - Exact USD pricing if the team wants regional differentiation later.
 - Color palette / typography customizations on top of OFFF DNA — TBD inside the existing design system.
+- Whether OFFF takes the seed (preferred) or the team raises ~€125K externally.
 
 If any of those come up, ask the user.

@@ -1,22 +1,39 @@
 # 08 — Operations & Team
 
-## Roles required
+## Founding team
 
-| Role | Responsibility | Phase 1 cost (M1–M3) | Phase 2 cost (M4+) |
+Y1 starts with **eight people on full salary from day one** — four founders plus a four-person production pod. Total Y1 team cost: **€194K** (see [`07-financial-plan.md`](07-financial-plan.md)).
+
+### Four founders
+
+| # | Name | Background | Role at SPIN OFFF |
 |---|---|---|---|
-| **Featured artist** (rotating monthly) | Creates the monthly concept + box inspiration direction; co-promotes | €2,000/mo | €2,000/mo |
-| **Curator / Content creator / Copywriter** | Produces the newsletter and written content | €1,800/mo | €1,800/mo |
-| **Social media manager** | Manages IG, TikTok, community | €500/mo | €1,500/mo |
-| **Audiovisual editor** | Edits podcast, YouTube longs, IG/TikTok shorts | — | €900/mo |
-| **Shipping partner** (Y2+) | Box logistics | — | TBD (Y2) |
-| **Box material supplier network** (Y2+) | Source per-box materials curated by featured artist | — | TBD (Y2) |
+| 01 | **Gabriela** | Project Manager · Amazon | Operations & delivery rigor |
+| 02 | **Yeva** | International Business | Growth & community across markets |
+| 03 | **Lian** | Visual Artist · Designer | Brand & editorial craft |
+| 04 | **Rodrigo** | Entrepreneur · Tech & Product | Product, platform, fundraising |
 
-The roles can be staffed by freelancers or part-timers in Year 1. The role list above is the **operational minimum**, not a final org chart.
+### Production pod (4 roles)
+
+| Role | Responsibility |
+|---|---|
+| **Content creator / Curator / Copywriter** | Produces the newsletter and written content |
+| **Social media manager** | Manages IG, TikTok, community |
+| **Audiovisual editor** | Edits podcast, YouTube longs, IG/TikTok shorts |
+| **Community manager** | Member onboarding, perks ecosystem, UGC loops |
+
+### External / variable
+
+| Role | Cost | Notes |
+|---|---|---|
+| **Featured artist** (rotating monthly) | €2,000 / mo | Creates the monthly concept + box inspiration direction (Y4+); co-promotes |
+| **Shipping partner** (Y4+) | TBD | Box logistics |
+| **Box material supplier network** (Y4+) | TBD | Source per-box materials curated by featured artist |
 
 ## Decision-making
 
 - **Final strategic decisions:** Pep, CEO of OFFF.
-- **Day-to-day operations:** Founding team (TBD).
+- **Day-to-day operations:** Founding team (the four above).
 - **Artist selection:** Founding team proposes; Pep confirms (must fit OFFF curation standards).
 - **Sponsor selection:** Founding team proposes; Pep confirms (must not conflict with OFFF's existing sponsor relationships).
 
@@ -50,10 +67,10 @@ Each month is anchored to **one featured artist**. Standard delivery cycle:
 - **Beehiiv** — newsletter platform.
 - **Shopify** — subscriptions & payments.
 - **OFFF sponsor network** — perks, discounts, tax benefits.
-- **Box brand partners (Y2+):** e.g., Lego, Moleskine — long lead time, start conversations early.
+- **Box brand partners (Y4+):** e.g., Lego, Moleskine — long lead time, start conversations early.
 
 ## Geography
 
 - **HQ:** Spain (S.L.).
 - **Newsletter audience:** worldwide (English default).
-- **Box launch:** EU-only (Q1 2028) for shipping simplicity.
+- **Box launch:** EU-only (Year 4, 2030) for shipping simplicity.

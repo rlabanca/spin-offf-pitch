@@ -18,7 +18,7 @@ The full SPIN OFFF product is a **funnel of escalating commitment** built on a s
                           │
                           ▼
                 ┌─────────────────────┐
-                │  CREATIVE BOX SUB   │  ← BOFU (Q1 Y2+)
+                │  CREATIVE BOX SUB   │  ← BOFU (Y4, 2030)
                 └─────────────────────┘
 ```
 
@@ -43,12 +43,13 @@ The full SPIN OFFF product is a **funnel of escalating commitment** built on a s
 
 The membership is the engine — it converts trust into recurring revenue *and* spreads spend across the OFFF ecosystem.
 
-## Layer 3 — Creative Box (Q1 2028, Year 2)
+## Layer 3 — Creative Box (Year 4, 2030)
 
-A physical monthly box of materials curated by the featured artist so the subscriber can build a creative project inspired by them. EU-only at launch.
+A physical monthly box of materials curated by the featured artist so the subscriber can build a creative project inspired by them. EU-only at launch. Deferred to Y4 (from the earlier Y2 plan) so it ships only when the audience is large enough to justify physical operations.
 
 - **Brand partnerships** for box content (e.g., Lego, Moleskine).
 - **Yearly award:** subscribers create from the box, the most-upvoted winner presents at OFFF as the prize. Drives massive UGC.
+- **5-year contribution:** box adds **€655K across Y4–Y5** in the current model (see [`07-financial-plan.md`](07-financial-plan.md)).
 
 ## The unifying mechanic — Artist of the Month
 
@@ -57,7 +58,7 @@ One artist anchors **everything** in a given month:
 - They create the newsletter concept.
 - They sit for the monthly podcast interview.
 - They drive social content (collab posts).
-- (From Y2) They curate the creative box.
+- (From Y4) They curate the creative box.
 - They co-promote across their own audience.
 
 This turns the artist into a **co-marketer**, makes content production lean, and ensures every issue has a clear voice and visual identity.

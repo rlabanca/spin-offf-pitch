@@ -2,19 +2,30 @@
 
 All figures in **EUR (€)**. M1 = January 2027.
 
-> Source of truth for the underlying model: [`source-material/financial-projection.html`](../source-material/financial-projection.html) and the founder-supplied plan in [`source-material/financial-plan-original.md`](../source-material/financial-plan-original.md).
+> Source of truth for the underlying model: [`source-material/financial-projection.html`](../source-material/financial-projection.html), the founder-supplied plan in [`source-material/financial-plan-original.md`](../source-material/financial-plan-original.md), and the updated P&L baked into [`decks/pitch-for-pep/`](../decks/pitch-for-pep/) (the "Pitch for Pep" deck — current canonical numbers).
+
+> **Version note (2026-05-11):** the Y1 P&L was rebuilt around an **8-people-on-full-salary-from-day-one** team. This replaces the earlier lean-Y1 model that showed Y1 net **+€11.1K** and cumulative break-even at M11. The new baseline below is what every artifact should cite.
 
 ## Year 1 P&L summary
 
 | Metric | Value |
 |---|---|
-| Total revenue | **€91,200** |
-| Total costs | **€80,100** |
-| **Year 1 net** | **+€11,100** |
-| First profitable month | **M6 (June 2027)** |
-| Cumulative break-even | **M11 (November 2027)** |
+| Total revenue | **€91K** |
+| Total costs | **€206K** (team €194K + ops/tools ~€12K) |
+| **Year 1 net** | **−€115K** |
+| Monthly break-even | **M13 (Jan 2028)** — start of Year 2 |
+| Cumulative break-even | **Q4 of Year 2 (2028)** |
 | Members at end of Y1 | **1,000** |
 | MRR at M12 (Dec 2027) | **€16,500** |
+
+## Investment ask
+
+| Item | Value |
+|---|---|
+| Seed round | **~€125K** (covers Y1 deficit of €115K + buffer) |
+| Use of funds | 8 people on full salary, €0 paid acquisition |
+| Capital recovered | **Q4 of Year 2 (2028)** |
+| Natural investor | **OFFF as equity co-funder** — fallback: external raise with OFFF's blessing |
 
 ## Revenue ramp (EUR)
 
@@ -25,29 +36,35 @@ All figures in **EUR (€)**. M1 = January 2027.
 | Ads / Other | — | — | — | — | — | 200 | 300 | 350 | 400 | 400 | 450 | 500 | **2.6K** |
 | **Total** | — | — | **0.5K** | **2.8K** | **4.5K** | **7K** | **8.8K** | **10.6K** | **11.8K** | **13.5K** | **15.3K** | **16.5K** | **91.2K** |
 
-## Cost structure
+## Cost structure (Y1)
 
-### Monthly recurring (EUR)
+Costs are roughly **flat at ~€17K / month** — team €16.2K + ops & tools €600 — across all 12 months. The deficit narrows monthly as revenue ramps but doesn't close until M13.
 
-| Cost line | Phase 1 (M1–M3) | Phase 2 (M4–M12) |
-|---|---|---|
-| Artist fee | 2,000 | 2,000 |
-| Content creator / copywriter | 1,800 | 1,800 |
-| Social / SM manager | 500 | 1,500 |
-| AV editing | — | 900 |
-| Newsletter platform (Beehiiv) | 150 | 200 |
-| Website & tools | 200 | 300 |
-| Payment platform (Shopify) | — | 150 |
-| **Monthly total** | **~4,650** | **~6,850** |
+| Cost block | Y1 total |
+|---|---|
+| Team — 8 people on full salary (4 founders + 4 production: content, social, AV, community) | **€194K** |
+| Featured artist (rotating, €2K/mo × 12) | **€24K** |
+| Tools, platforms, ops | **~€12K** (incl. one-time €500 site build + €4K membership platform in M3) |
+| **Total Y1 costs** | **~€206K** (artist fee shown separately above is reflected inside cost-of-content) |
 
-### One-time investments
+> Note: the deck reports total Y1 cost as **€206K** rolling team + ops + artist together. Detailed per-line breakdown is in the financial model (HTML projection in [`source-material/`](../source-material/)).
 
-| Item | When | Amount |
-|---|---|---|
-| Website setup | M1 | €500 |
-| Membership platform build | M3 | €4,000 |
+## 5-year P&L (EUR)
 
-## 3-year horizon
+| Year | Revenue | Costs | Net |
+|---|---|---|---|
+| **Y1 (2027)** | €91K | €206K | **−€115K** |
+| **Y2 (2028)** | €345K | €213K | **+€132K** |
+| **Y3 (2029)** | €677K | €220K | **+€457K** |
+| **Y4 (2030)** | €1.18M | €339K | **+€792K** |
+| **Y5 (2031)** | €1.93M | €514K | **+€1.16M** |
+| **5-year cumulative** | **€3.9M** | **€1.49M** | **+€2.43M** |
+
+- **Membership** drives ~78% of cumulative revenue.
+- **Box subscription** launches **Y4 (2030)** and adds **€655K across Y4–Y5**.
+- **10,000 paying members by EoY5.**
+
+## 3-year subscriber / MRR horizon (unchanged from earlier baseline)
 
 | | Newsletter Subs | Paying Members | Estimated MRR |
 |---|---|---|---|
@@ -71,9 +88,9 @@ At €12 ARPU, **10,000 members ≈ €1.44M ARR**.
 
 ## What's *not* yet modeled
 
-- Creative box P&L (Q1 2028 launch, EU-only).
+- Detailed creative-box P&L (Y4 launch, EU-only at launch).
 - Regional USD pricing if introduced.
-- Hiring beyond the listed roles in [`08-operations-and-team.md`](08-operations-and-team.md).
+- Hiring beyond the 8 Y1 roles (4 founders + 4 production) listed in [`08-operations-and-team.md`](08-operations-and-team.md).
 - One-off festival activations (OFFF Barcelona May 2027, Sevilla, Montreal).
 
 When the founder asks you to update projections, **always note the change vs. this baseline** and don't silently overwrite — discuss before changing canonical numbers.

@@ -11,12 +11,13 @@ This repo is the single source of truth for the founding team and any Claude ses
 | [`CLAUDE.md`](CLAUDE.md) | Read first if you're a Claude session — contains the operating context |
 | [`knowledge/`](knowledge/) | The 12 numbered docs that describe the company end-to-end |
 | [`prompts/`](prompts/) | Prompt templates for the priority artifacts (pitch decks first) |
+| [`decks/`](decks/) | Built deck handoff bundles from Claude Design (HTML/CSS/JS prototypes) |
 | [`.claude/skills/`](.claude/skills/) | Invokable Claude Code skills built on top of `knowledge/` and `prompts/` |
 | [`source-material/`](source-material/) | Original raw inputs (handwritten notes, financial HTML) — preserved verbatim |
 
 ## What SPIN OFFF is, in one paragraph
 
-SPIN OFFF is a media company built on top of OFFF Barcelona's existing community, artist relationships and sponsor network. It runs a funnel — **website → free newsletter → paid membership → (Y2+) creative box subscription** — designed to spread creativity, give artists more visibility/revenue, and fight the AI-driven "samification" of culture. The first newsletter ships **January 2027**; membership opens **April 2027** (one month before OFFF Barcelona, May 6–8, 2027).
+SPIN OFFF is a media company built on top of OFFF Barcelona's existing community, artist relationships and sponsor network. It runs a funnel — **website → free newsletter → paid membership → (Y4+) creative box subscription** — designed to spread creativity, give artists more visibility/revenue, and fight the AI-driven "samification" of culture. The first newsletter ships **January 2027**; membership opens **April 2027** (one month before OFFF Barcelona, May 6–8, 2027). Y1 runs at a **−€115K** net (8 people on full salary, zero paid acquisition), funded by a **~€125K seed** — capital recovered in **Q4 2028**, cumulative 5-year net **+€2.43M**.
 
 ## Top-of-mind priorities (ranked)
 

@@ -1,0 +1,194 @@
+/* SPIN OFFF — Pitch deck styles
+   Built on the OFFF design system. */
+@import url("assets/colors_and_type.css");
+
+/* ---------- Deck-specific scale (1920x1080) ---------- */
+:root {
+  --type-display: 200px;
+  --type-mega:    140px;
+  --type-title:   84px;
+  --type-subtitle:56px;
+  --type-lead:    40px;
+  --type-body:    32px;
+  --type-small:   26px;
+  --type-tag:     22px;
+
+  --pad-x:        96px;
+  --pad-y:        88px;
+  --pad-bottom:   80px;
+  --gap-title:    48px;
+  --gap-item:     28px;
+}
+
+/* ---------- Stage / slide frame ---------- */
+deck-stage {
+  background: var(--offf-black);
+}
+
+section {
+  background: var(--offf-white);
+  color: var(--offf-black);
+  font-family: var(--font-body);
+  overflow: hidden;
+  position: relative;
+}
+
+/* Default slide layout: centered/edge content via flex */
+.slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: var(--pad-y) var(--pad-x) var(--pad-bottom);
+  box-sizing: border-box;
+}
+
+/* ---------- Persistent header bar ---------- */
+.bar {
+  position: absolute;
+  top: 40px;
+  left: var(--pad-x);
+  right: var(--pad-x);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--offf-black);
+  z-index: 5;
+}
+.bar.invert { color: var(--offf-white); }
+.bar .left  { display: flex; gap: 24px; align-items: center; }
+.bar .dot   { width: 12px; height: 12px; background: currentColor; border-radius: 999px; }
+
+/* ---------- Type utilities ---------- */
+.display     { font-family: var(--font-display); font-weight: 700; line-height: 0.88; letter-spacing: -0.035em; text-transform: uppercase; }
+.title       { font-family: var(--font-display); font-weight: 700; font-size: var(--type-title); line-height: 0.96; letter-spacing: -0.025em; }
+.sub         { font-family: var(--font-display); font-weight: 600; font-size: var(--type-subtitle); line-height: 1.0; letter-spacing: -0.02em; }
+.lead        { font-family: var(--font-body); font-size: var(--type-lead); line-height: 1.18; letter-spacing: -0.005em; }
+.body-lg     { font-family: var(--font-body); font-size: var(--type-body); line-height: 1.35; }
+.small       { font-family: var(--font-body); font-size: var(--type-small); line-height: 1.35; }
+.tag         { font-family: var(--font-mono); font-size: 26px; letter-spacing: 0.06em; text-transform: uppercase; }
+.numeral     { font-family: var(--font-display); font-weight: 700; font-feature-settings: "tnum"; letter-spacing: -0.04em; }
+
+/* Flat color tile bg variants */
+.bg-orange   { background: var(--offf-orange); }
+.bg-cyan     { background: var(--offf-cyan); }
+.bg-green    { background: var(--offf-green); }
+.bg-pink     { background: var(--offf-pink); }
+.bg-red      { background: var(--offf-red); }
+.bg-brown    { background: var(--offf-brown); color: var(--offf-white); }
+.bg-electric { background: var(--offf-electric); color: var(--offf-white); }
+.bg-black    { background: var(--offf-black); color: var(--offf-white); }
+.bg-paper    { background: var(--offf-paper); }
+
+/* Common content wrappers */
+.stack       { display: flex; flex-direction: column; }
+.row         { display: flex; }
+.between     { justify-content: space-between; }
+.middle      { align-items: center; }
+.gap-sm      { gap: 16px; }
+.gap-md      { gap: 28px; }
+.gap-lg      { gap: 48px; }
+.grow        { flex: 1; }
+
+/* Hairline rule */
+.rule        { height: 2px; background: currentColor; width: 100%; }
+
+/* Numbered tags [01], [02] */
+.numtag {
+  font-family: var(--font-mono);
+  font-size: 26px;
+  letter-spacing: 0.06em;
+  display: inline-block;
+}
+
+/* Card */
+.card {
+  border: 2px solid var(--offf-black);
+  background: var(--offf-white);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image fill */
+.fill {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Slide title-number watermark */
+.snum {
+  position: absolute;
+  right: var(--pad-x);
+  bottom: 36px;
+  font-family: var(--font-mono);
+  font-size: 26px;
+  letter-spacing: 0.06em;
+  z-index: 5;
+}
+
+/* ---------- TITLE SLIDE — color block grid ---------- */
+.tile-grid {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1.6fr;
+}
+.tile { display: flex; align-items: center; justify-content: center; overflow: hidden; }
+
+/* ---------- Funnel / bowtie SVG container ---------- */
+.bowtie-wrap {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Tables ---------- */
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--type-small);
+}
+.tbl th, .tbl td {
+  text-align: left;
+  padding: 18px 20px;
+  border-bottom: 2px solid var(--offf-black);
+  font-weight: 500;
+}
+.tbl th {
+  font-family: var(--font-mono);
+  font-size: 26px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--offf-black);
+}
+.tbl td.num { font-family: var(--font-display); font-weight: 600; }
+
+/* ---------- Bar chart ---------- */
+.bars {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 12px;
+  align-items: end;
+  height: 100%;
+}
+.bar-col {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  justify-content: end;
+  gap: 6px;
+}
+.bar-stack { background: var(--offf-black); }
+
+/* ---------- Print to PDF ---------- */
+@page { size: 1920px 1080px; margin: 0; }
