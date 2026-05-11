@@ -1,12 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "true",
   "outputDirectory": "decks/pitch-for-pep/project",
-  "cleanUrls": false,
+  "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    { "source": "/", "destination": "/SPIN%20OFFF%20-%20Pitch%20for%20Pep.html" },
-    { "source": "/print", "destination": "/SPIN%20OFFF%20-%20Pitch%20for%20Pep-print.html" }
-  ],
   "headers": [
     {
       "source": "/(.*)\\.(html)",

@@ -28,11 +28,13 @@ The design medium is **HTML/CSS/JS** — these are prototypes, not production co
 
 This deck is wired up for Vercel deployment from the **repo root** via [`vercel.json`](../../vercel.json):
 
-- **Framework:** none (static site)
+- **Framework:** none (static site, no-op `buildCommand`)
 - **Output directory:** `decks/pitch-for-pep/project`
 - **Routes:**
-  - `/` → main deck (`SPIN OFFF - Pitch for Pep.html`)
-  - `/print` → print-friendly version (`SPIN OFFF - Pitch for Pep-print.html`)
+  - `/` → main deck (`index.html`)
+  - `/print` → print-friendly version (`print.html`, served clean via `cleanUrls`)
+
+> The original Claude Design handoff filenames (`SPIN OFFF - Pitch for Pep.html` / `…-print.html`) were renamed to `index.html` / `print.html` so static hosts (Vercel, Netlify, plain HTTP servers) serve them without URL-encoding gymnastics. The rename is preserved in git history.
 
 To deploy:
 
